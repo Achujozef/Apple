@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.appleNav{
+    position:fixed;
+    z-index: 100;
+    height: 40px;
+    width: 100%;
+    background: black ;
+    opacity: 0.78;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo-icon{
+    margin-right: 2.7vw;
+    margin-top: 4px;
+}
+.logo-icon svg{
+    fill: rgb(187,187,187);
+    width: 15px ;
+    cursor: pointer;
+    transition: ease-out 200ms;
+}
+.logo-icon svg:hover{
+    fill: white;
+}
+.appleNav .options a{
+    color: rgb(187,187,187);
+    text-decoration: none;
+    margin-right: 2.7vw;
+    font-size: 0.75rem;
+    transition: ease-out 200ms;
+}
+.appleNav .options a:hover{
+   color: white;
+}
+.search-section svg{
+    width: 15px;
+    margin-top: 8px;
+    fill:rgb(187,187,187) ;
+    transition: ease-out 200ms;
+}
+.search-section svg:hover{
+    fill: white;
+}
+.shopkart svg{
+    
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+   margin-left: 2.7vw;
+   cursor: pointer;
+}
+.shopkart svg path{
+    fill: rgb(187,187,187);
+    transition: ease-out 200ms;
+}
+
+.shopkart svg:hover path{
+    fill: white;
+    
+}
+.container{
+    width: 100%;
+}
+.pageA{
+    
+    width: 100%;
+    height: 93vh;
+    background:no-repeat url(https://www.apple.com/v/home/ay/images/heroes/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_large.jpg) center 85px;
+    background-color: black;
+    background-position: bottom;
+}
+.pageB{
+    
+    width: 100%;
+    height: 76vh;
+    background:no-repeat url(https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_preorder__c4g2wjzuugqe_large_2x.jpg) center -20px ;
+    background-color: white;
+    background-size: cover;
+}
+.pageC{
+    
+    width: 100%;
+    height: 76vh;
+    background:no-repeat url(https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_large_2x.jpg) center center;
+    background-color: black;
+    background-size: cover;
+}
+.sub{
+    padding: 2px ;
+}
+
+.sub-lap{
+    background: url(https://www.apple.com/v/home/ay/images/promos/macbook-pro-14-and-16/promo_mbp_preorder__faqgyfz56umq_medium_2x.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 76vh;
+}
+.sub-speaker{
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/homepod/promo_homepod_announce__bhviq9vjnlf6_medium_2x.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-watch{
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/watch-black-unity/promo_bhm__d8b9z5rlwjgy_medium_2x.jpg) center -240px;
+    background-size: 80%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-valantine{
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/valentines-day-2023/promo_valentines_day_2023__duffhlmdxcqe_large_2x.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-mac{
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_large_2x.jpg) center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-ipad{
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/ipad/promo_ipad__fioegapg12qi_medium_2x.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+
+.footer{
+    width: 100%;
+    height: 93vh;
+   background-color:#d2d2d7;
+    
+
+}
+.note{
+   
+    text-align: center;
+    border-left:100% ;
+    border-right: 100%;
+}
+.disc{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
